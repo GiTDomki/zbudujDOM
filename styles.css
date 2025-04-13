@@ -1,0 +1,56 @@
+/* Podstawowy reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ogólny styl dla strony */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Nagłówek */
+header {
+    background-image: url('https://images.unsplash.com/photo-1588854337221-c152f4f6bfc5?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5MnwwfDF8c2VhcmNofDh8fGJ1aWxkaW5nJTIwYXBwbGljYXRpb258ZW58MHx8fHwxNjgwMzgzMzk&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 4rem 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Sekcje treści */
+.content {
+    padding: 2rem;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+}
